@@ -1,4 +1,7 @@
-﻿//Задание 1
+﻿using System.Text;
+
+
+//Задание 1
 // Console.Write("Введите слово: ");
 // string word = Console.ReadLine();
 // int count = 0;
@@ -157,3 +160,22 @@ else
 {
     Console.WriteLine("Адрес некорректен. Длина не меньше 5 символов");
 }
+
+//Дополнительное задание
+// Console.WriteLine("Введите строку");
+// string stroke = Console.ReadLine().ToLower();
+
+// var sb = new StringBuilder();
+// foreach(char c in stroke) {
+//     bool flag = false;
+//     foreach(char i in "уеыаоэяииюёeyuoia") {
+//         if (c == i) {
+//             flag =  true;
+//         }
+//     }
+//     if (flag) {
+//         continue;
+//     }
+//     sb.Append(c);
+// }
+// Console.WriteLine($"Строка без гласных {sb.ToString()}");
